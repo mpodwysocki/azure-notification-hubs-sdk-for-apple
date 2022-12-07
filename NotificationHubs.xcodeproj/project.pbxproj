@@ -11,6 +11,31 @@
 		4CA8D42F293FCB6B00750330 /* NotificationHubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA8D424293FCB6B00750330 /* NotificationHubs.framework */; };
 		4CA8D434293FCB6B00750330 /* NotificationHubsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8D433293FCB6B00750330 /* NotificationHubsTests.swift */; };
 		4CA8D435293FCB6B00750330 /* NotificationHubs.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D427293FCB6B00750330 /* NotificationHubs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA8D43F293FCD0900750330 /* AZNHNotificationHub.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D43E293FCD0900750330 /* AZNHNotificationHub.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA8D441293FDA0500750330 /* AZNHNotificationHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8D440293FDA0500750330 /* AZNHNotificationHub.m */; };
+		4CA8D443293FDAC100750330 /* AZNHNotificationHubOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D442293FDAC100750330 /* AZNHNotificationHubOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA8D445293FE2BC00750330 /* AZNHNotificationHubOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8D444293FE2BC00750330 /* AZNHNotificationHubOptions.m */; };
+		4CA8D4472940046E00750330 /* AZNHConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D4462940046E00750330 /* AZNHConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA8D4492940053800750330 /* AZNHConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8D4482940053800750330 /* AZNHConnection.m */; };
+		4CA8D44B2940061E00750330 /* AZNHLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D44A2940061E00750330 /* AZNHLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA8D44D294006A200750330 /* AZNHConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D44C294006A200750330 /* AZNHConstants.h */; };
+		4CA8D4502940078000750330 /* AZNHLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8D44F2940078000750330 /* AZNHLogger.m */; };
+		4CA8D452294007D300750330 /* AZNHLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D451294007D300750330 /* AZNHLogger+Private.h */; };
+		4CA8D45429400BB100750330 /* AZNHDebounceClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D45329400BB100750330 /* AZNHDebounceClient.h */; };
+		4CA8D45629400C3500750330 /* AZNHDebounceClient+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D45529400C3500750330 /* AZNHDebounceClient+Private.h */; };
+		4CA8D45829400C6E00750330 /* AZNHDebounceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8D45729400C6E00750330 /* AZNHDebounceClient.m */; };
+		4CA8D45C29401BCB00750330 /* AZNHAbstractService.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D45B29401BCB00750330 /* AZNHAbstractService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA8D45E2940421A00750330 /* AZNHAbstractService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8D45D2940421A00750330 /* AZNHAbstractService.m */; };
+		4CA8D4602940459000750330 /* AZNHInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D45F2940459000750330 /* AZNHInstallation.h */; };
+		4CA8D4622940461200750330 /* AZNHAbstractService+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D4612940461200750330 /* AZNHAbstractService+Private.h */; };
+		4CA8D4652940493B00750330 /* AZNHTaggable.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D4642940493B00750330 /* AZNHTaggable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA8D46729404BF300750330 /* AZNHInstallationTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D46629404BF300750330 /* AZNHInstallationTemplate.h */; };
+		4CA8D469294143E700750330 /* AZNHInstallation+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D468294143E700750330 /* AZNHInstallation+Private.h */; };
+		4CA8D46B2941453B00750330 /* AZNHInstallationTemplate+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D46A2941453B00750330 /* AZNHInstallationTemplate+Private.h */; };
+		4CA8D46D294145DB00750330 /* AZNHInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8D46C294145DB00750330 /* AZNHInstallation.m */; };
+		4CA8D46F2941464400750330 /* AZNHInstallationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8D46E2941464400750330 /* AZNHInstallationTemplate.m */; };
+		4CA8D471294146E200750330 /* AZNHTagHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8D470294146E200750330 /* AZNHTagHelper.h */; };
+		4CA8D4732941471D00750330 /* AZNHTagHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8D4722941471D00750330 /* AZNHTagHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +54,31 @@
 		4CA8D428293FCB6B00750330 /* NotificationHubs.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NotificationHubs.docc; sourceTree = "<group>"; };
 		4CA8D42E293FCB6B00750330 /* NotificationHubsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationHubsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA8D433293FCB6B00750330 /* NotificationHubsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHubsTests.swift; sourceTree = "<group>"; };
+		4CA8D43E293FCD0900750330 /* AZNHNotificationHub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZNHNotificationHub.h; sourceTree = "<group>"; };
+		4CA8D440293FDA0500750330 /* AZNHNotificationHub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZNHNotificationHub.m; sourceTree = "<group>"; };
+		4CA8D442293FDAC100750330 /* AZNHNotificationHubOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZNHNotificationHubOptions.h; sourceTree = "<group>"; };
+		4CA8D444293FE2BC00750330 /* AZNHNotificationHubOptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZNHNotificationHubOptions.m; sourceTree = "<group>"; };
+		4CA8D4462940046E00750330 /* AZNHConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZNHConnection.h; sourceTree = "<group>"; };
+		4CA8D4482940053800750330 /* AZNHConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZNHConnection.m; sourceTree = "<group>"; };
+		4CA8D44A2940061E00750330 /* AZNHLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZNHLogger.h; sourceTree = "<group>"; };
+		4CA8D44C294006A200750330 /* AZNHConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZNHConstants.h; sourceTree = "<group>"; };
+		4CA8D44F2940078000750330 /* AZNHLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZNHLogger.m; sourceTree = "<group>"; };
+		4CA8D451294007D300750330 /* AZNHLogger+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZNHLogger+Private.h"; sourceTree = "<group>"; };
+		4CA8D45329400BB100750330 /* AZNHDebounceClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZNHDebounceClient.h; sourceTree = "<group>"; };
+		4CA8D45529400C3500750330 /* AZNHDebounceClient+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZNHDebounceClient+Private.h"; sourceTree = "<group>"; };
+		4CA8D45729400C6E00750330 /* AZNHDebounceClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZNHDebounceClient.m; sourceTree = "<group>"; };
+		4CA8D45B29401BCB00750330 /* AZNHAbstractService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZNHAbstractService.h; sourceTree = "<group>"; };
+		4CA8D45D2940421A00750330 /* AZNHAbstractService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZNHAbstractService.m; sourceTree = "<group>"; };
+		4CA8D45F2940459000750330 /* AZNHInstallation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZNHInstallation.h; sourceTree = "<group>"; };
+		4CA8D4612940461200750330 /* AZNHAbstractService+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZNHAbstractService+Private.h"; sourceTree = "<group>"; };
+		4CA8D4642940493B00750330 /* AZNHTaggable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZNHTaggable.h; sourceTree = "<group>"; };
+		4CA8D46629404BF300750330 /* AZNHInstallationTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZNHInstallationTemplate.h; sourceTree = "<group>"; };
+		4CA8D468294143E700750330 /* AZNHInstallation+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZNHInstallation+Private.h"; sourceTree = "<group>"; };
+		4CA8D46A2941453B00750330 /* AZNHInstallationTemplate+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZNHInstallationTemplate+Private.h"; sourceTree = "<group>"; };
+		4CA8D46C294145DB00750330 /* AZNHInstallation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZNHInstallation.m; sourceTree = "<group>"; };
+		4CA8D46E2941464400750330 /* AZNHInstallationTemplate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZNHInstallationTemplate.m; sourceTree = "<group>"; };
+		4CA8D470294146E200750330 /* AZNHTagHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZNHTagHelper.h; sourceTree = "<group>"; };
+		4CA8D4722941471D00750330 /* AZNHTagHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZNHTagHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +121,19 @@
 		4CA8D426293FCB6B00750330 /* NotificationHubs */ = {
 			isa = PBXGroup;
 			children = (
+				4CA8D44E2940076600750330 /* Internal */,
+				4CA8D4632940491700750330 /* Model */,
+				4CA8D45B29401BCB00750330 /* AZNHAbstractService.h */,
+				4CA8D45D2940421A00750330 /* AZNHAbstractService.m */,
+				4CA8D4462940046E00750330 /* AZNHConnection.h */,
+				4CA8D4482940053800750330 /* AZNHConnection.m */,
+				4CA8D44C294006A200750330 /* AZNHConstants.h */,
+				4CA8D44A2940061E00750330 /* AZNHLogger.h */,
+				4CA8D44F2940078000750330 /* AZNHLogger.m */,
+				4CA8D43E293FCD0900750330 /* AZNHNotificationHub.h */,
+				4CA8D440293FDA0500750330 /* AZNHNotificationHub.m */,
+				4CA8D442293FDAC100750330 /* AZNHNotificationHubOptions.h */,
+				4CA8D444293FE2BC00750330 /* AZNHNotificationHubOptions.m */,
 				4CA8D427293FCB6B00750330 /* NotificationHubs.h */,
 				4CA8D428293FCB6B00750330 /* NotificationHubs.docc */,
 			);
@@ -85,6 +148,34 @@
 			path = NotificationHubsTests;
 			sourceTree = "<group>";
 		};
+		4CA8D44E2940076600750330 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8D4612940461200750330 /* AZNHAbstractService+Private.h */,
+				4CA8D45329400BB100750330 /* AZNHDebounceClient.h */,
+				4CA8D45529400C3500750330 /* AZNHDebounceClient+Private.h */,
+				4CA8D45729400C6E00750330 /* AZNHDebounceClient.m */,
+				4CA8D451294007D300750330 /* AZNHLogger+Private.h */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		4CA8D4632940491700750330 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8D4642940493B00750330 /* AZNHTaggable.h */,
+				4CA8D45F2940459000750330 /* AZNHInstallation.h */,
+				4CA8D468294143E700750330 /* AZNHInstallation+Private.h */,
+				4CA8D46C294145DB00750330 /* AZNHInstallation.m */,
+				4CA8D46629404BF300750330 /* AZNHInstallationTemplate.h */,
+				4CA8D46A2941453B00750330 /* AZNHInstallationTemplate+Private.h */,
+				4CA8D46E2941464400750330 /* AZNHInstallationTemplate.m */,
+				4CA8D470294146E200750330 /* AZNHTagHelper.h */,
+				4CA8D4722941471D00750330 /* AZNHTagHelper.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,6 +184,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CA8D435293FCB6B00750330 /* NotificationHubs.h in Headers */,
+				4CA8D46B2941453B00750330 /* AZNHInstallationTemplate+Private.h in Headers */,
+				4CA8D4652940493B00750330 /* AZNHTaggable.h in Headers */,
+				4CA8D45629400C3500750330 /* AZNHDebounceClient+Private.h in Headers */,
+				4CA8D43F293FCD0900750330 /* AZNHNotificationHub.h in Headers */,
+				4CA8D4622940461200750330 /* AZNHAbstractService+Private.h in Headers */,
+				4CA8D471294146E200750330 /* AZNHTagHelper.h in Headers */,
+				4CA8D45C29401BCB00750330 /* AZNHAbstractService.h in Headers */,
+				4CA8D44B2940061E00750330 /* AZNHLogger.h in Headers */,
+				4CA8D452294007D300750330 /* AZNHLogger+Private.h in Headers */,
+				4CA8D443293FDAC100750330 /* AZNHNotificationHubOptions.h in Headers */,
+				4CA8D4472940046E00750330 /* AZNHConnection.h in Headers */,
+				4CA8D44D294006A200750330 /* AZNHConstants.h in Headers */,
+				4CA8D46729404BF300750330 /* AZNHInstallationTemplate.h in Headers */,
+				4CA8D469294143E700750330 /* AZNHInstallation+Private.h in Headers */,
+				4CA8D4602940459000750330 /* AZNHInstallation.h in Headers */,
+				4CA8D45429400BB100750330 /* AZNHDebounceClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +301,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA8D46F2941464400750330 /* AZNHInstallationTemplate.m in Sources */,
+				4CA8D46D294145DB00750330 /* AZNHInstallation.m in Sources */,
+				4CA8D45829400C6E00750330 /* AZNHDebounceClient.m in Sources */,
+				4CA8D4492940053800750330 /* AZNHConnection.m in Sources */,
+				4CA8D445293FE2BC00750330 /* AZNHNotificationHubOptions.m in Sources */,
+				4CA8D45E2940421A00750330 /* AZNHAbstractService.m in Sources */,
+				4CA8D4502940078000750330 /* AZNHLogger.m in Sources */,
+				4CA8D4732941471D00750330 /* AZNHTagHelper.m in Sources */,
 				4CA8D429293FCB6B00750330 /* NotificationHubs.docc in Sources */,
+				4CA8D441293FDA0500750330 /* AZNHNotificationHub.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
